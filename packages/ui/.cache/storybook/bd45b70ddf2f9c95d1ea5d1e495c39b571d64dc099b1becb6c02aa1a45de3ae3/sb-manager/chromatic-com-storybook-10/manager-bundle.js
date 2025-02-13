@@ -1,0 +1,1 @@
+import '/Users/imobpowerimobpower/Desktop/corinthians/node_modules/@chromatic-com/storybook/dist/manager.mjs';

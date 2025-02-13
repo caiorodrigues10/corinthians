@@ -9,7 +9,7 @@ node_modules
 coverage
 
 # next.js
-.next/
+# .next/
 out/
 build
 .swc/
@@ -34,3 +34,6 @@ yarn-error.log*
 
 # ui
 dist/
+
+*storybook.log
+.vercel

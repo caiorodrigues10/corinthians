@@ -1,0 +1,92 @@
+"use strict";
+self["webpackHotUpdate_repo_ui"]("stories-components-TitleCard-stories",{
+
+/***/ "../../node_modules/clsx/dist/clsx.mjs":
+/*!*********************************************!*\
+  !*** ../../node_modules/clsx/dist/clsx.mjs ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   clsx: () => (/* binding */ clsx),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else if("object"==typeof e)if(Array.isArray(e)){var o=e.length;for(t=0;t<o;t++)e[t]&&(f=r(e[t]))&&(n&&(n+=" "),n+=f)}else for(f in e)e[f]&&(n&&(n+=" "),n+=f);return n}function clsx(){for(var e,t,f=0,n="",o=arguments.length;f<o;f++)(e=arguments[f])&&(t=r(e))&&(n&&(n+=" "),n+=t);return n}/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clsx);
+
+/***/ }),
+
+/***/ "./src/components/titleCard/index.tsx":
+/*!********************************************!*\
+  !*** ./src/components/titleCard/index.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   TitleCard: () => (/* binding */ TitleCard)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! clsx */ "../../node_modules/clsx/dist/clsx.mjs");
+"use client";
+
+
+const TitleCard = ({ imageTitle, title, totalTitles, className })=>{
+    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+        className: (0,clsx__WEBPACK_IMPORTED_MODULE_1__["default"])("bg-black p-6 flex flex-col gap-4 rounded-2xl relative overflow-hidden btn justify-center", className)
+    }, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: "flex gap-4 items-center z-10"
+    }, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: "bg-white p-1 rounded-lg"
+    }, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+        src: imageTitle,
+        className: "w-[100px] h-[100px] object-contain",
+        alt: `${title} image`
+    })), /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+        className: "text-xl font-bold mb-2 text-white"
+    }, title), /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+        className: "text-gray-300 nunito"
+    }, totalTitles, " T\xedtulos"))));
+};
+TitleCard.__docgenInfo = {
+    "description": "",
+    "methods": [],
+    "displayName": "TitleCard",
+    "props": {
+        "totalTitles": {
+            "required": true,
+            "tsType": {
+                "name": "number"
+            },
+            "description": ""
+        },
+        "title": {
+            "required": true,
+            "tsType": {
+                "name": "string"
+            },
+            "description": ""
+        },
+        "imageTitle": {
+            "required": true,
+            "tsType": {
+                "name": "string"
+            },
+            "description": ""
+        },
+        "className": {
+            "required": false,
+            "tsType": {
+                "name": "string"
+            },
+            "description": ""
+        }
+    }
+};
+
+
+/***/ })
+
+});
+//# sourceMappingURL=stories-components-TitleCard-stories.c76f9ec97c116a8d101c.hot-update.js.map
