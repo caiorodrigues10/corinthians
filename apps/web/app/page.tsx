@@ -4,7 +4,7 @@ import { NavBar, PlayerCard, TitleCard } from "@repo/ui";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { navBarLinks, players } from "../../src/constants/players";
+import { navBarLinks, players } from "../src/constants/players";
 
 export default function CorinthiansPage() {
   const images = ["/primeirotime.png", "/time.jpg", "/time2.jpg"];
